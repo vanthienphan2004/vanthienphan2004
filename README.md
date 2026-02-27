@@ -1,21 +1,19 @@
 <h1 align="center">Hi there, I'm Van Phan 👋</h1>
 
 <p align="center">
-<em>Mathematics & CS undergrad applying code to biological challenges. Building ML pipelines & PINNs to model cellular dynamics and cancer invasion.</em>
+<em>AI/ML researcher building systems for biomedical discovery — from fine-tuning vision-language models for radiology to physics-informed neural networks for cancer simulation.</em>
 </p>
 
-I'm an undergraduate researcher and a B.S. Mathematics & Computer Science student at Georgia State University. My passion lies at the intersection of technology and healthcare, where I focus on leveraging computational models and data-driven solutions to solve complex biological problems. I'm currently exploring opportunities for Summer 2026 internships in data science, machine learning, and biotechnology.
+I'm an undergraduate researcher and a B.S. Mathematics (Conc. Computer Science) student at Georgia State University. My work sits at the intersection of AI/ML and healthcare, where I build computational models and data-driven systems to solve complex biological problems. I'm currently exploring opportunities for **Summer 2026 internships** in AI/ML, data science, and computational biology.
 
-🔭 I’m currently engineering Physics-Informed Neural Networks to simulate collective cancer invasion.  
-🌱 I’m deepening my expertise in PyTorch and advanced deep learning architectures.  
-🔬 My research involves building ML pipelines to analyze cellular aging and wound healing dynamics.  
-📫 How to reach me: vanthienphan2004.work@gmail.com  
+🔭 I'm currently fine-tuning **MedGemma vision-language models** for automated mammography report generation and clinical triage.  
+🧠 I'm deepening my expertise in **PyTorch**, **LoRA/QLoRA**, and multimodal deep learning architectures.  
+🔬 My research spans ML pipelines for cellular aging analysis, PINNs for cancer invasion, and neuromorphic biocomputing.  
+📫 How to reach me: **vanthienphan2004.work@gmail.com**  
 
 ---
 
 ## 🛠️ My Tech Stack
-
-Here are some of the tools and technologies I work with:
 
 <p align="left">
 <a href="https://www.python.org" target="_blank" rel="noreferrer">
@@ -26,6 +24,9 @@ Here are some of the tools and technologies I work with:
 </a>
 <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="40" height="40"/>
+</a>
+<a href="https://huggingface.co/" target="_blank" rel="noreferrer">
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="huggingface" width="40" height="40"/>
 </a>
 <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
@@ -51,13 +52,20 @@ Here are some of the tools and technologies I work with:
 
 ## 🚀 Research Spotlight
 
-### 🔬 Enhanced Physics-Informed Neural Networks for Collective Cancer Invasion  
-- Engineered a PINN model in PyTorch to simulate a two-species cancer invasion system, creating a data-efficient solution for complex Partial Differential Equations (PDEs).  
-- Developed a framework that encodes physical laws directly into the model's loss function, reducing the need for extensive labeled data.
+### 🏥 AutoMammo — AI Mammography Triage & Report Generation *(Jan 2026 – Present)*
+- Engineered a system to automatically classify and prioritize high-risk mammography cases using a fine-tuned **Google MedGemma 1.5 4B-it** vision-language model with **LoRA** and **4-bit quantization**.
+- Achieved high-fidelity report generation: **ROUGE-L: 0.6693**, **METEOR: 0.7187**, **Word-Level F1: 0.6789**.
 
-### 🧬 Morphological Feature Analysis of Retinal Pigment Epithelial (RPE) Cells  
-- Built a complete machine learning pipeline for RPE image analysis, extracting over 20 feature types to analyze age-related changes.  
-- Utilized PCA to optimize a high-dimensional dataset and developed ML models (KNN, SVM, LDA) to classify aging stages with 86% accuracy.
+### 🧬 Morphological Feature Analysis of Retinal Pigment Epithelial (RPE) Cells *(Jun 2024 – Aug 2025)*
+- Developed an automated, config-driven 7-step end-to-end ML pipeline for RPE cell classification.
+- Extracted 133 morphological/texture features and achieved **90%+ cross-validation F1-score** using a stacking ensemble (XGBoost, LightGBM, CatBoost) with a Logistic Regression meta-learner.
+
+### 🔬 Enhanced Physics-Informed Neural Networks for Collective Cancer Invasion *(Jun 2025 – Aug 2025)*
+- Engineered a **PINNs** model to simulate collective cancer invasion as a data-efficient, mesh-free solution for complex PDEs.
+- Utilized **Tensorized Fourier Neural Operators (TFNO)** and explored Seq2Seq PINO and Augmented Lagrangian methods to improve solution accuracy.
+
+### 🧠 Neuromorphic Biocomputing *(Ongoing)*
+- Simulating biological "wetware" logic gates using FitzHugh-Nagumo and Hodgkin-Huxley models with phase space trajectory analysis and coincidence detection.
 
 ---
 
@@ -65,13 +73,17 @@ Here are some of the tools and technologies I work with:
 
 <p align="center"> 
   <img src="https://github-readme-stats.vercel.app/api?username=vanthienphan2004&show_icons=true&theme=radical" alt="Van Phan's GitHub Stats" /> 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanthienphan2004&layout=compact&theme=radical" alt="Top Languages Used" /> </p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanthienphan2004&layout=compact&theme=radical" alt="Top Languages Used" />
+</p>
 
 ---
 
 ## 📫 Let's Connect!
 
 <p align="center">
+  <a href="https://vanthienphan2004.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio">
+  </a>
   <a href="https://www.linkedin.com/in/van-phan-241770242/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
