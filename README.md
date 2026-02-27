@@ -69,14 +69,6 @@ I'm an undergraduate researcher and a B.S. Mathematics (Conc. Computer Science) 
 
 ---
 
-## 📊 My GitHub Stats
-
-<p align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=vanthienphan2004&show_icons=true&theme=radical" alt="Van Phan's GitHub Stats" /> 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanthienphan2004&layout=compact&theme=radical" alt="Top Languages Used" />
-</p>
-
----
 
 ## 📫 Let's Connect!
 
